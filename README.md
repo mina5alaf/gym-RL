@@ -9,6 +9,7 @@ This project is an application on reinforcement learning and Q-learning using Op
 
 The code is generalized that it can work on any other eniveroment.
 
+
 ![Generalized code](imgs/gen.png "Generalized code")
 <br /><br />
 ## Methods
@@ -17,6 +18,8 @@ In this project, you can train the agent using 2 methods:
 1.  Without Q-learning: 
 
 you need to send the enviroment that was initialized in the env_render function as a parameter.
+
+
 ![Without RL](imgs/without.png "Without RL")
 
 <br />
@@ -26,11 +29,15 @@ you need to send the enviroment that was initialized in the env_render function 
 you need to send the enviroment that was initialized in the env_render function as a parameter. You need also to provide alpha, gamma,epsilon and episodes respectively.
 
 It return Q-table values wich is 2D numpy array (500,6)
+
+
 ![With RL](imgs/with.png "With RL")
 
 2.1) Testing: 
 
 It test the learning process of the agent using the Q-table values.
+
+
  ![With RL](imgs/test.png "With RL")
 
 <br /><br />
@@ -54,6 +61,9 @@ To run this project, install all the written dependencies. Make sure that they a
 
 
 ## you can either narrow the steps, or to edit GridSearch function to iterate on n elements only in the tuple.
+
+
 ![permutations](imgs/perm.png "Permutaions")
+
 
 ![GridSearch](imgs/grid.png "GridSearch")
